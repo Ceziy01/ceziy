@@ -1,0 +1,39 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+body {
+    background: #1D1925;  
+    background: -webkit-linear-gradient(to right, #101010, #1D1925); 
+    background: linear-gradient(to right, #101010, #1D1925); 
+    
+    }
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #1D1925; 
+    background: -webkit-linear-gradient(to right, #101010, #1D1925); 
+    background: linear-gradient(to right, #101010, #1D1925);
+}
+
+#panelbutton {
+    float: left;
+}
+
+#panelbutton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#panelbutton a:hover {
+    color: #52438F;
+}
+

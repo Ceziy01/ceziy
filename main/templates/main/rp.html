@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}
+Ресурспак
+{% endblock %}
+
+{% block content %}
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/rp.css' %}">
+  <a href="{% static 'main/resourcepacks/Totems 1.4.1 Easter 2022.zip' %}" download=""><button id="rpbutton">Totems 1.4.1 (Easter 2022)</button></a>
+  <br><br><a id="rptitle">Старые версии:</a>
+  <div><span><a></a></span>
+    <br><div id="rplink"><a id="rplink" href="{% static 'main/resourcepacks/Totems 1.4.zip' %}">Totems 1.4</a></div></div>
+{% endblock %}
+
+
